@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{98fbd949-bcc9-41f7-a375-3d6abe9510fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DetectedObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Data\InputImages\00003_BGR_563293601264383.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\00235_BGR_563293601821865.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\00262_BGR_563293601872180.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\00280_BGR_563293601797951.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\00303_BGR_563293601875156.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\00507_BGR_563293601707719.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\00599_BGR_563293601808320.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\00667_BGR_563293601858636.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\00747_BGR_563293601885203.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\00977_BGR_563288684073478.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\01038_BGR_563288684157369.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\01146_BGR_563288684264748.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\01147_BGR_563288683614178.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\01245_BGR_563288684271615.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\01295_BGR_563288684187756.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\01479_BGR_563288684076774.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\01521_BGR_563288684167383.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Data\InputImages\01577_BGR_563288684254615.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\Yolo\yolov3.cfg" />
+    <None Include="Data\Yolo\yolov3.weights" />
+    <None Include="Data\Yolo\coco.names" />
+    <None Include="Data\Yolo\yolov4.cfg" />
+    <None Include="Data\Yolo\yolov4.weights" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\ObjectDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DetectedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Output\coords.txt" />
+  </ItemGroup>
+</Project>
